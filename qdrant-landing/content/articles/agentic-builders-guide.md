@@ -24,7 +24,7 @@ While agents have proven they can create incredible impact, they still face seri
     
 * **Fragmented Knowledge**: Agents live in a world of siloed data: documents, APIs, images, conversations, and more. Most can only reach one slice at a time, often text. This means they fail when asked to integrate across formats, or when the right answer depends on combining structured data, unstructured text, and [multimodal](https://qdrant.tech/documentation/multimodal-search/) data.  
     
-* **Fragile at Scale:** What works in a demo breaks in production. Agents that rely on brittle retrieval pipelines slow down under the weight of thousands of calls per workflow. [Latency](https://qdrant.tech/articles/vector-search-production/) compounds, precision drops, and the experience degrades just when reliability matters most.
+* **Fragile at Scale:** What works in a demo breaks in production. Agents that rely on brittle retrieval pipelines slow down under the weight of thousands of calls per workflow. [Latency](/documentation/production-operations/vector-search-in-production/) compounds, precision drops, and the experience degrades just when reliability matters most.
 
 ## Why Vector Search Helps
 
@@ -40,7 +40,7 @@ Reliable agentic workflows require a clear plan executed with precise tools. A v
 * [**Multimodal support**](https://qdrant.tech/blog/case-study-mixpeek/): text, image, videos, audio, and code  
 * [**Hybrid search**](https://qdrant.tech/documentation/search-tuning/hybrid-search/)**:** combining dense \+ sparse vectors
 * [**Advanced filtering**](https://qdrant.tech/documentation/search/filtering/)**:** semantic \+ metadata \+ keyword constraints  
-* [**Millisecond vector retrieval**](https://qdrant.tech/articles/vector-search-production/)**:** Fast retrieval at \>billion vector scale
+* [**Millisecond vector retrieval**](/documentation/production-operations/vector-search-in-production/)**:** Fast retrieval at \>billion vector scale
 
 Throughout this article, we’ll use TripAdvisor’s [TripBuilder](https://www.tripadvisor.com/TripBuilder) to illustrate how each of the four concepts above is critical for building and deploying agentic search at scale.
 
