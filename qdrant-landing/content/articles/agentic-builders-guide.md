@@ -56,7 +56,7 @@ When your agent has to design the itinerary for the trip to Berlin, TripBuilder 
 
 ## Why Speed Matters in Agentic Retrieval
 
-Agents may run thousands of searches to answer a single complex question. Sometimes those searches are run in parallel, but sometimes they’re run sequentially. For those sequential searches, each millisecond saved compounds. That’s when Qdrant's [Rust-based](https://qdrant.tech/articles/why-rust/) [HNSW indexing](https://qdrant.tech/documentation/manage-data/indexing/#hnsw-graph-index), which enables millisecond-level retrieval at scale, becomes a differentiator.
+Agents may run thousands of searches to answer a single complex question. Sometimes those searches are run in parallel, but sometimes they’re run sequentially. For those sequential searches, each millisecond saved compounds. That’s when Qdrant's [Rust-based](/blog/why-rust/) [HNSW indexing](https://qdrant.tech/documentation/manage-data/indexing/#hnsw-graph-index), which enables millisecond-level retrieval at scale, becomes a differentiator.
 
 Let’s imagine that you see a 75ms retrieval performance gain with Qdrant. On its own, that might not make a demonstrable difference in the search experience. But if an agent performs four sequential searches, that 300ms starts to have a user experience impact. With that delay, a user can quickly get bored or distracted, leading to frustration. With agentic AI, the retrieval speed optimizations are compounded. 
 
